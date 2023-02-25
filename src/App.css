@@ -1,20 +1,24 @@
 .card{
-  background-color: rgb(129, 220, 220);
+  background-color: #81ecec;
   width: 250px;
   height: 190px;
   font-size: 15px;
   display: inline-block;
+  text-align: left;
   border-radius: 15px 15px;
   margin: 25px 0 25px 0 ;
 
 }
 
 .upper{
-  background-color: rgb(23, 183, 183);
+  background-color: #00cec9;
   border-radius: 15px 15px 0 0;
   height: 42%;
   padding-top: 0;
   
+}
+h1{
+  text-align: center;
 }
 .lower{
   padding-top:25px;
@@ -35,23 +39,20 @@
   margin-left: 5px;
   
 }
-.Name{
-  display: inline-block;
-  width: 50px;
-}
+
 span{
   padding-left: 10px;
 }
 h4{
   font-size: 25px;
+  color: #2d3436;
   display: inline-block;
   padding-top: 25px;
   padding-left: 10px;
   margin: 0 0;
 }
 .contact_container{
-  margin-left: 40%;
-  margin-top: 25px;
+ text-align: center;
 }
 body{
   margin: 0 0;

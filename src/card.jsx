@@ -5,11 +5,9 @@ function Card(props){
         
             <div className="card">
                 <div className="upper">
-                    <div className="Name">
-                        <h4>{props.name}</h4>
-                        <div className="profile_pic">
-                            <img className="pic" src={props.src}/>
-                        </div>
+                    <h4>{props.name}</h4>
+                    <div className="profile_pic">
+                        <img className="pic" src={props.src} alt={props}/>
                     </div> 
                 </div>
                 <div className="lower">
