@@ -1,6 +1,6 @@
 .card{
   background-color: #81ecec;
-  width: 250px;
+  width: 220px;
   height: 190px;
   font-size: 15px;
   display: inline-block;
@@ -9,7 +9,12 @@
   margin: 25px 0 25px 0 ;
 
 }
-
+.parent_container{
+  text-align: center;
+}
+.main_heading{
+  text-align: center;
+}
 .upper{
   background-color: #00cec9;
   border-radius: 15px 15px 0 0;
@@ -23,20 +28,16 @@ h1{
 .lower{
   padding-top:25px;
 }
-.profile_pic{
-  height: 85px;
-  border-radius:150px 150px;
-  width: 85px;
-  margin-top: -20px;
-  margin-left: 150px;
-  background-color: aliceblue;
-}
+
 .pic{
+  display: inline;
+  position: absolute;
   height: 75px;
+  border: 6px solid white;
   border-radius:150px 150px;
   width: 75px;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin-top: 25px;
+  margin-left: 40px;
   
 }
 
@@ -57,4 +58,27 @@ h4{
 body{
   margin: 0 0;
   background-color: rgb(218, 220, 221);
+}
+
+input{
+  font-size: 18px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.add_contact{
+  position: fixed;
+  top: 200px;
+  right: 70px;
+  width: 32px;
+  font-size: 25px;
+  border: 0px;
+  border-radius: 25px 25px;
+  background-color: #00cec9;
+  color: white;
+  height: 32px;
+}
+.AddContact{
+    position: fixed;
+    right: 50px;
 }

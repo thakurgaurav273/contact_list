@@ -1,14 +1,14 @@
 import React from "react";
-import "./App.css";
+import "../App.css";
+import Avatar from "../Components/avatar.jsx";
 function Card(props){
     return( 
         
             <div className="card">
                 <div className="upper">
                     <h4>{props.name}</h4>
-                    <div className="profile_pic">
-                        <img className="pic" src={props.src} alt={props}/>
-                    </div> 
+                    <Avatar src={props.src}/>
+                    
                 </div>
                 <div className="lower">
                     <span>{props.mob}</span> <br />
