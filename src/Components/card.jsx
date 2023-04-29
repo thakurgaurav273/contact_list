@@ -6,7 +6,7 @@ function Card(props){
         
             <div className="card">
                 <div className="upper">
-                    <h4>{props.name}</h4>
+                    <h4>{props.id}<br/>{props.name}</h4>
                     <Avatar src={props.src}/>
                     
                 </div>

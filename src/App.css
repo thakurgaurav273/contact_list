@@ -1,7 +1,8 @@
+/* styling of card component */
 .card{
   background-color: #81ecec;
-  width: 220px;
-  height: 190px;
+  width: 250px;
+  height: 210px;
   font-size: 15px;
   display: inline-block;
   text-align: left;
@@ -9,11 +10,16 @@
   margin: 25px 0 25px 0 ;
 
 }
-.parent_container{
-  text-align: center;
+h4{
+  font-size: 25px;
+  color: #2d3436;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin: 0 0;
 }
-.main_heading{
-  text-align: center;
+span{
+  padding-left: 10px;
 }
 .upper{
   background-color: #00cec9;
@@ -22,63 +28,36 @@
   padding-top: 0;
   
 }
-h1{
-  text-align: center;
-}
 .lower{
   padding-top:25px;
 }
 
+/* styles of app.js */
+.parent_container{
+  text-align: center;
+}
+
+/* style of index.js */
+.main_heading{
+  text-align: center;
+}
+
+/* style of avatar component */
 .pic{
   display: inline;
   position: absolute;
-  height: 75px;
+  height: 80px;
   border: 6px solid white;
   border-radius:150px 150px;
-  width: 75px;
+  width: 80px;
   margin-top: 25px;
   margin-left: 40px;
   
 }
 
-span{
-  padding-left: 10px;
-}
-h4{
-  font-size: 25px;
-  color: #2d3436;
-  display: inline-block;
-  padding-top: 25px;
-  padding-left: 10px;
-  margin: 0 0;
-}
-.contact_container{
- text-align: center;
-}
+/* style of body of index.html */
+
 body{
   margin: 0 0;
   background-color: rgb(218, 220, 221);
-}
-
-input{
-  font-size: 18px;
-  margin-bottom: 15px;
-  border-radius: 5px;
-}
-
-.add_contact{
-  position: fixed;
-  top: 200px;
-  right: 70px;
-  width: 32px;
-  font-size: 25px;
-  border: 0px;
-  border-radius: 25px 25px;
-  background-color: #00cec9;
-  color: white;
-  height: 32px;
-}
-.AddContact{
-    position: fixed;
-    right: 50px;
 }
